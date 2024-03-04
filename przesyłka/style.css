@@ -1,0 +1,11 @@
+.main{
+    width: 50%;
+    border: solid 2px;
+}
+
+.forms{
+    display: flex;
+}
+section{
+    margin: auto;
+}
