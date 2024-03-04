@@ -24,7 +24,7 @@ if (isset($_POST['imie']) && isset($_POST['nazwisko'])) {
             $liczbaOdwiedzin = 1;
         }
     
-        setcookie('liczba_odwiedzin', $liczbaOdwiedzin, time() + 30 * 24 * 60 * 60);
+        setcookie('liczba_odwiedzin', $liczbaOdwiedzin, time() + 12 * 30 * 24 * 60 * 60);
     
         if (isset($_COOKIE['imie_nazwisko'])) {
             $imieNazwisko = $_COOKIE['imie_nazwisko'];
