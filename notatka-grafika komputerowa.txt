@@ -1,17 +1,37 @@
-Grafika komputerowa to fascynująca dziedzina, która łączy technologię z twórczością wizualną. Pozwala na generowanie i przetwarzanie obrazów cyfrowych, a jej zastosowania są niezwykle różnorodne. Oto kilka kluczowych aspektów grafiki komputerowej:
+Grafika komputerowa to fascynująca dziedzina, 
+która łączy technologię z twórczością wizualną. 
+Pozwala na generowanie i przetwarzanie obrazów 
+cyfrowych, a jej zastosowania są niezwykle różnorodne. 
+
+Oto kilka kluczowych aspektów grafiki komputerowej:
 
 Grafika rastrowa vs. wektorowa:
-Grafika rastrowa składa się z małych punktów zwanych pikselami, które tworzą obraz. Jest idealna do fotografii, ale przy dużych rozmiarach wymaga sporo miejsca na dysku i czasu przetwarzania.
-Grafika wektorowa opiera się na linii, kształtach i krzywych. Jest bardziej elastyczna, skalowalna i efektywna w edycji.
+Grafika rastrowa składa się z małych punktów zwanych pikselami, 
+które tworzą obraz. Jest idealna do fotografii, ale 
+przy dużych rozmiarach wymaga sporo miejsca na dysku 
+i czasu przetwarzania.
+
+Grafika wektorowa opiera się na linii, kształtach i 
+krzywych. Jest bardziej elastyczna, skalowalna i efektywna w edycji.
+
 Programy do tworzenia grafiki:
 Grafika rastrowa: Photoshop, GIMP, Paint Shop Pro.
+
 Grafika wektorowa: Illustrator, Corel Draw, Inkscape.
+
 Formaty plików graficznych:
-Najpopularniejsze to JPEG, PNG, GIF, BMP i TIFF. Pamiętaj, że nie wszystkie obsługują kanał alfa (przeźroczystość).
+Najpopularniejsze to JPEG, PNG, GIF, BMP i TIFF. Pamiętaj, 
+że nie wszystkie obsługują kanał alfa (przeźroczystość).
+
 Kanał alfa (przeźroczystość):
-To dodatkowy kanał, który określa przezroczystość wyświetlanych elementów graficznych. Wartość zerowa oznacza pełną przezroczystość, a maksymalna – całkowitą nieprzezroczystość.
+To dodatkowy kanał, który określa przezroczystość wyświetlanych 
+elementów graficznych. Wartość zerowa oznacza pełną przezroczystość, 
+a maksymalna – całkowitą nieprzezroczystość.
+
 Kompresja stratna i bezstratna:
 Kompresja stratna usuwa nieużyteczne dane, ale jest niewykrywalna.
 Kompresja bezstratna pozwala na odtworzenie pierwotnych danych.
+
 Modele barw:
-RGB, CMYK i HSV to najważniejsze modele barw. RGB reprezentuje kolory światła, CMYK jest używane w druku, a HSV pozwala na precyzyjne określenie odcieni.
+RGB, CMYK i HSV to najważniejsze modele barw. RGB reprezentuje kolory 
+światła, CMYK jest używane w druku, a HSV pozwala na precyzyjne określenie odcieni.
