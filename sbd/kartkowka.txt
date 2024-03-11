@@ -1,0 +1,9 @@
+grupa a
+
+select * COUNT ilosc_ocen FROM `przedmioty` WHERE ilosc_ocen>=1000
+ilosc ocen z danego przedmiotu nazwa pola ilosc ocen do tego nazwa przedmiotu ale tylko dla przedmiotow gdzie ilosc ocen jest mniejsza niz tysiac 
+
+
+srednia ocen nazwa przedmiotu ale tylko dla przedmiotow gdzie srednia jest mniejsza niz 2.98
+
+nazwisko imie ucznia, ilosc ocen dla uczniow ktorych nazwiska zaczynaja sie na litere c	
