@@ -1,18 +1,9 @@
 <?php
     session_start();
     if(isset($_SESSION['log'])){
-        header('location: strona.php');
+        header('location: loguj.php');
         exit();
-}
-elseif(isset($_POST['nazwa'])&&isset($_POST['haslo'])){
-    if($_POST['nazwa']=='admin'&&$_POST['haslo']=='admin123'){
-        $_SESSION['log']=$_POST['nazwa'];
-        header('location: strona.php');
-        exit();
-    }else{
-        echo "Nieprawidlowe dane logowania";
     }
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +13,12 @@ elseif(isset($_POST['nazwa'])&&isset($_POST['haslo'])){
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        $imie = ucfirst($_SESSION['log']);
+        echo "Witaj".$imie;
+    ?>
+    <p>Jesteś na stronie głównej</p>
+    <p>Przed opuszczeniem strony głównej wyloguj się!</p>
+    <a href="wyloguj.php">Wyloguj</a>
 </body>
 </html>
