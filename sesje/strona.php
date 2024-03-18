@@ -1,9 +1,10 @@
 <?php
-    session_start();
-    if(isset($_SESSION['log'])){
-        header('location: loguj.php');
-        exit();
-    }
+session_start();
+if(!isset($_SESSION['log']))
+{
+    header('location: loguj.php');
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,11 +15,11 @@
 </head>
 <body>
     <?php
-        $imie = ucfirst($_SESSION['log']);
-        echo "Witaj".$imie;
+    $imie=ucfirst($_SESSION['log']);
+    echo "witaj ". $imie;
     ?>
-    <p>Jesteś na stronie głównej</p>
-    <p>Przed opuszczeniem strony głównej wyloguj się!</p>
-    <a href="wyloguj.php">Wyloguj</a>
+    <p>Jestes na stronie glownej</p>
+    <p>przed opuszczeniem strony wyloguj sie</p>
+    <a href="./wyloguj.php">Wyloguj</a>
 </body>
 </html>

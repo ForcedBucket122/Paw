@@ -4,30 +4,32 @@
         header('location: strona.php');
         exit();
     }
-    elseif(isset($_POST['nazwa']) && isset($_POST['haslo'])){
-        if($_POST['nazwa'] == 'admin' && $_POST['haslo'] == 'admin123'){
-            $_SESSION['log'] = $_POST['nazwa'];
-            header('location: strona.php');
-            exit();
-        }
-        else{
-            echo "Nieprawidłowe dane logowania";
-        }
+    elseif (isset($_POST['nazwa'])&&isset($_POST['haslo'])) {
+        if($_POST['nazwa']=='admin'&& $_POST['haslo']=='admin123')
+    {
+        $_SESSION['log']=$_POST['nazwa'];
+        header('location : strona.php');
+        exit();
     }
-    ?>
+    else
+    {
+        echo "nieprawidlowe dane logowania";
+    }
+}
+?>
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sesje</title>
+    <title>Document</title>
 </head>
 <body>
-<form method="post" action="http://localhost/2pb/sesje/strona.php">
-        <p>Logowanie</p>
-        Nazwa użytkownika: <input type="text" name="nazwa" value="" size="25"><br><br>
-        Hasło: <input type="password" name="haslo" value="" size="25"><br><br>
-        <input type="submit" value="Zaloguj się">
+    <form action="http://localhost/2pb/sesje/strona.php" method="post">
+        <p>logowanie</p>
+        Nazwa uzytkownika: <input type="text" name="nazwa" id=""><br><br>
+        <input type="password" name="haslo" id=""><br><br>
+        <input type="submit" value="zaloguj sie">
     </form>
 </body>
 </html>
