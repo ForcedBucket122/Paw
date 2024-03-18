@@ -1,17 +1,25 @@
 <?php
+        $uzytkownicy=['admin'=>'admin123','nieAdmin'=>'nieAdmin123','jeden'=>'jeden123'];
         session_start();
         if(isset($_SESSION['log'])){
             header('location: strona.php');
             exit();
         }
         elseif(isset($_POST['nazwa']) && isset($_POST['haslo'])){
-            if($_POST['nazwa'] == 'admin' && $_POST['haslo'] == 'admin123'){
+            if(sprawdz($uzytkownicy)==true){
                 $_SESSION['log'] = $_POST['nazwa'];
                 header('location: strona.php');
                 exit();
             }
             else{
                 echo "Nieprawidłowe dane logowania";
+            }
+        }
+        function sprawdz($uzytkownicy){
+            if(!empty($_POST['nazwa']) && !empty($_POST['haslo'])){
+                if($_POST['haslo'] == $uzytkownicy[$_POST['nazwa']]){
+                    return true;
+                }
             }
         }
     ?>

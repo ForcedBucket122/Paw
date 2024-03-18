@@ -20,6 +20,6 @@ if(!isset($_SESSION['log'])){
     ?>
     <p>Jesteś na stronie głównej</p>
     <p>Przed opuszczeniem strony wyloguj się!</p>
-    <a href="wyloguj.php">Wyloguj</a>
+    <a href="wyloguj.php">Wyloguj</a> <br>
 </body>
 </html>
