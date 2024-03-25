@@ -1,4 +1,5 @@
 <?php
+    error_reporting(0);
         $uzytkownicy=['admin'=>'admin123','nieAdmin'=>'nieAdmin123','jeden'=>'jeden123'];
         session_start();
         if(isset($_SESSION['log'])){
