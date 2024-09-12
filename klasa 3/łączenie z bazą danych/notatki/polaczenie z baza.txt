@@ -1,0 +1,3 @@
+host-komputer w sieci przechowujacy baze
+login i haslo uzytkownika MySQL-ktory ma przypisane uprawnienia do wykonywania wybranych zapytan SQL
+nazwa bazy danych z ktorej korzystamy
