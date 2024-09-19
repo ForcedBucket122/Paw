@@ -13,7 +13,15 @@
         <input type="submit" value="Pokaż oceny">
     </form>
     <?php
-        echo "Hello World!";
+        require "dbconnect.php";
+        $conn = mysqli_connect($host,$user,$pass,$db) or die("Błąd połączenia");
+        // if(!$conn){
+        //     echo "Błąd połączenia z bazą!";
+        // }
+        // else{
+        //     echo "Połączono z bazą";
+        // }
+        mysqli_close($conn);
     ?>
 </body>
 </html>

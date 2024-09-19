@@ -1,3 +1,7 @@
 host-komputer w sieci przechowujacy baze
 login i haslo uzytkownika MySQL-ktory ma przypisane uprawnienia do wykonywania wybranych zapytan SQL
 nazwa bazy danych z ktorej korzystamy
+
+mysqli_conect laczy strikte z baza danych
+
+mysqli_close zamyka polaczenie z baza danych

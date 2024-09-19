@@ -1,0 +1,6 @@
+include
+require
+require_once
+
+wszystkie 3 lacza sie z plikiem php 
+
