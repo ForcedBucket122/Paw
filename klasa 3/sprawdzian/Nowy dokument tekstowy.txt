@@ -1,0 +1,9 @@
+1.Stworz baze danych o nazwie karp nastepnie stworz skrypt ktory polaczy sie z baza danych wraz z walidacja
+2.wyjasnij funkcje exit, include, mysqli_close
+	exit-opuszcza skrypt php
+	include-laczy z zewnetrznym plikiem php
+	mysqli_close-zamyka połączenie z bazą danych
+3.Jakie mamy rodzaje jezyka php serwerowego
+	mysql
+	mysqli
+	pdo
