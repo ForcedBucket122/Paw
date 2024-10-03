@@ -28,9 +28,9 @@
                 $klasa=$_POST['klasa'];
                 $query = "SELECT Imie, Nzawisko, Srednia_ocen from uczen where nazwa='$klasa' and klasa.id=uczen.id_klasy";
                 $result = mysqli_query($conn,$query) or die("Błąd danych");
-                while($row = mysqli_fetch_array($result)){
-                    
-                }
+                while($row = mysqli_fetch_array($result))
+
+                
             }
             
             mysqli_close($conn);
