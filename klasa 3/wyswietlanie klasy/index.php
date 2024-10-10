@@ -26,14 +26,21 @@
                 //     echo "Połączono z bazą";
                 // }
                 $klasa=$_POST['klasa'];
-                $query = "SELECT Imie, Nzawisko, Srednia_ocen from uczen where nazwa='$klasa' and klasa.id=uczen.id_klasy";
+                $query = "SELECT Imie, Nazwisko, Srednia_ocen from uczen,klasa where nazwa='$klasa' and klasa.id=uczen.id_klasy";
                 $result = mysqli_query($conn,$query) or die("Błąd danych");
-                while($row = mysqli_fetch_array($result))
+                // while($row = mysqli_fetch_row($result)){
+                //     echo $row[0]."<br>";
+                // }
+                while($row = mysqli_fetch_assoc($result)){
+                    echo $row['Imie']."<br>";
+                }
+                // while($row = mysqli_fetch_array ($result)){
+                //     echo $row[0]."<br>";
+                // }
 
-                
+                mysqli_close($conn);
             }
             
-            mysqli_close($conn);
         }
         
         
