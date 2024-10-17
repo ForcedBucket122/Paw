@@ -1,0 +1,12 @@
+td,table,th{
+    border: solid 1px;
+}
+td{
+    text-align: center;
+}
+table{
+    margin-top: 20px;
+}
+th{
+    background-color: rgb(171, 171, 171);
+}
