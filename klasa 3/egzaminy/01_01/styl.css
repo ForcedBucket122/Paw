@@ -23,6 +23,9 @@ header{
     color: navy;
     margin: 50px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    
 }
 footer{
     text-align: right;
@@ -47,4 +50,7 @@ a:hover{
 textarea{
     height: 200px;
     width: 350px;
+}
+hr{
+    width: 100%;;
 }
