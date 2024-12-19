@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="glowny">
-            <div class="pracownik1">
+            <div class="pracownik">
                 <img src="./pliki/osoba1.jpg" alt="Dyrektor">
                 <h2>Krzysztof Dobromilski</h2>
                 <h3>Dyrektor</h3>
@@ -25,7 +25,7 @@
                 <p>telefon: 111222333</p>
                 <a href="mailto:Krzysztof.Dobromilski@firma.pl"><h5>Kontakt</h5></a>
             </div>
-            <div class="pracownik2">
+            <div class="pracownik">
                 <img src="./pliki/osoba2.jpg" alt="Kierownuk logistyków">
                 <h2>Joanna Trojanowska</h2>
                 <h3>Kierownuk logistyków</h3>
@@ -33,7 +33,7 @@
                 <p>telefon: 222333444</p>
                 <a href="mailto:Joanna.Trojanowska@firma.pl"><h5>Kontakt</h5></a>
             </div>
-            <div class="pracownik3">
+            <div class="pracownik">
                 <img src="./pliki/osoba3.jpg" alt="Księgowość i kadry">
                 <h2>Ewa Nowak</h2>
                 <h3>Księgowość i kadry</h3>
@@ -43,11 +43,34 @@
             </div>
         </div>
         <div class="cytaty">
-            
+            <div class="cytat1">"Każdego dnia stawiam sobie nieosiągalne wyzwania i próbuję je wykonać"
+                <p>- Krzysztof</p></div>
+            <div class="cytat2">"Nie bój się porażek, im więcej ich rozwiążesz, tym szybciej osiągniesz cel"
+                <p>- Joanna</p></div>
+            <div class="cytat3">"Niezadowolony pracownik jest dla mnie źródłem nauki"
+                <p>- Ewa</p></div>
         </div>
         <div class="stopka">
-
+            <p class="autor">Stronę wykonał: 00000000000</p>
         </div>
     </div>
+    <script>
+        const cytat1 = document.querySelector(".cytat1");
+        const cytat2 = document.querySelector(".cytat2");
+        const cytat3 = document.querySelector(".cytat3");
+
+        cytat1.addEventListener("click", function(){
+            cytat1.style.display="none";
+            cytat2.style.display="block";
+        });
+        cytat2.addEventListener("click", function(){
+            cytat2.style.display="none";
+            cytat3.style.display="block";
+        });
+        cytat3.addEventListener("click", function(){
+            cytat3.style.display="none";
+            cytat1.style.display="block";
+        });
+    </script>
 </body>
 </html>
